@@ -1,0 +1,2 @@
+"As a *user*, I want to *search the entire archive* so that *I can find documents immediately *." 
+"As a *user*, I want to *be able to have a platform that instaneously lets me communicate with my team members* so that *we can collaborate with ease*." 
