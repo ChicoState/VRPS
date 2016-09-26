@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GUI_Menu_to_Unity</string>
+    <string name="edit_message">Setting Tester</string>
+    <string name="button_send">Send</string>
+</resources>
