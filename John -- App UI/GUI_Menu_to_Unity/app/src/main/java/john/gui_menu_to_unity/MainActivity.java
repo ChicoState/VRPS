@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         if(!fileExists(FILE_NAME))
             new File(this.getFilesDir(),FILE_NAME);
-        setContentView(R.layout.activity_main);
+        getFragmentManager().beginTransaction()
+                .replace(android.R.id.content, new SettingsFragment())
+                .commit();
+        //setContentView(R.layout.activity_main);
     }
 
     public void sendMessage(View view) {
