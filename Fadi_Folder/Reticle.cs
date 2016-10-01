@@ -20,33 +20,38 @@ using UnityEngine;
 using System.Collections;
 
 public class Reticle : MonoBehaviour {
-
+    private float defaultPosZ;
+    private Vector3 Reticle_Scale;
     public Camera CameraFacing;
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+        Reticle_Scale = transform.localScale; // getting the original scale of the reticle at start up, this can be changed from the GUI
+        defaultPosZ = transform.localPosition.z;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        //float distance;
+        float distance;
 
         // we will identify the closest object the camera is looking at so that we may
         // draw the reticle correctly on the closest object. this will prevent the double image effect.
-        /*
+           
         RaycastHit hit;
-        if (Physics.Raycast(new Ray(CameraFacing.transform.position,
-                                    CameraFacing.transform.rotation * Vector3.forward), out hit))
-        {
-            distance = hit.distance;
-        }//if
-        else { distance = CameraFacing.farClipPlane * 0.95f; }
-        */
+        Ray ray = new Ray(CameraFacing.transform.position,
+                          CameraFacing.transform.rotation * Vector3.forward);
 
-        // Vector3(0.1f, 0.1f, 0.1f) will allow us the scale the crosshair linearly as the distance changes.
-        // longer distances = bigger cross hair, closer distances = smalled cross hair.
-        //transform.localScale = new Vector3(0.1f, 0.1f, 0.1f) * distance;
+        if (Physics.Raycast(ray, out hit))
+        {
+            distance = hit.distance; // when the ray collides with an object it will set the distance to the objects distance from the camera.
+
+    }//if
+        else { distance = defaultPosZ; }// incase the ray doesnt hit a thing
+
+
+        //Vector3(0.1f, 0.1f, 0.1f) will allow us the scale the crosshair linearly as the distance changes.
+        // longer distances = bigger cross hair, closer distances = smaller cross hair.
+        transform.localScale = Reticle_Scale * distance;
 
         transform.LookAt(CameraFacing.transform.position); // this will allow the reticle to face the position 
                                                            //of the camera in the world
@@ -56,7 +61,7 @@ public class Reticle : MonoBehaviour {
         // now we will make the reticle follow the camera forward facing vector in order to have the reticle
         // move with respect to your head movement.
         transform.position = CameraFacing.transform.position +
-            (CameraFacing.transform.rotation * Vector3.forward * 0.5f);
+            (CameraFacing.transform.rotation * Vector3.forward * distance);
 
     }//update
 }
