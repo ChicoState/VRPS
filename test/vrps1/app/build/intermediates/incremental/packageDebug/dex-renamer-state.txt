@@ -1,0 +1,7 @@
+#Tue Oct 04 17:01:03 PDT 2016
+base.0=B\:\\VRPS\\test\\vrps1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_34182b73d3b2bedd9ce3ac9ae68644cf4a8545ac
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=B\:\\VRPS\\test\\vrps1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_365d4729595e098cb81487145c624b1ccd8b9a8e\\classes.dex
+base.1=B\:\\VRPS\\test\\vrps1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_365d4729595e098cb81487145c624b1ccd8b9a8e
+file.0=B\:\\VRPS\\test\\vrps1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_34182b73d3b2bedd9ce3ac9ae68644cf4a8545ac\\classes.dex

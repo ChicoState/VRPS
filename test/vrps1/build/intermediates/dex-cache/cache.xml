@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="B:\VRPS\test\vrps1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23840f91ff883b9caa1cc1edb094a877859e1b02">
+        <dex dex="B:\VRPS\test\vrps1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_34182b73d3b2bedd9ce3ac9ae68644cf4a8545ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="B:\VRPS\test\vrps1\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6d457c913df52a4998fca4aa7acbdb201a813266">
+        <dex dex="B:\VRPS\test\vrps1\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_c19c0aceaf7a42922ee04343c8458d5ee86f6abb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="B:\VRPS\test\vrps1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c2369136796539c47b44ff20fc4978c186d59a0f">
+        <dex dex="B:\VRPS\test\vrps1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_365d4729595e098cb81487145c624b1ccd8b9a8e\classes.dex" />
+    </item>
+
+</items>
