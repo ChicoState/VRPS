@@ -1,109 +1,59 @@
 -- Merging decision tree log ---
 manifest
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:1-19:12
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:70-109
-		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
-		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
-	android:versionName
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:110-135
-		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
-		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:136-159
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:11-69
-	android:installLocation
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:2:160-200
-supports-screens
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:3-163
-	android:largeScreens
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:78-105
-	android:smallScreens
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:21-48
-	android:normalScreens
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:49-77
-	android:xlargeScreens
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:106-134
-	android:anyDensity
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:3:135-160
 application
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:3-13:17
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:3-25:17
+MERGED from [com.android.support:appcompat-v7:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:92-124
-	android:debuggable
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:125-151
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:8:7-39
+	android:supportsRtl
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:9:7-33
+	android:allowBackup
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:6:7-33
 	android:icon
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:58-91
-	android:banner
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:174-211
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:7:7-41
 	android:theme
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:16-57
-	android:isGame
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:4:152-173
-activity#com.Our430Company.TestProgram.UnityPlayerActivity
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:5-12:16
-	android:screenOrientation
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:48-86
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:10:7-38
+activity#com.Our430Company.TestProgram.SplashScreen
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:5-16:16
 	android:label
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:15-47
-	android:launchMode
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:87-118
-	android:configChanges
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:119-276
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:44-77
 	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:5:277-341
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:6:7-10:23
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:15-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:12:7-15:23
 action#android.intent.action.MAIN
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:7:9-61
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:13:9-61
 	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:7:17-58
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:13:17-58
 category#android.intent.category.LAUNCHER
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:8:9-69
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:14:9-69
 	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:8:19-66
-category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:9:9-78
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:14:19-66
+activity#com.Our430Company.TestProgram.MainActivity
+ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:18:5-24:16
 	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:9:19-75
-meta-data#unityplayer.UnityActivity
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:7-82
-	android:value
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:59-79
-	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:11:18-58
+		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:18:15-43
 uses-sdk
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:14:3-71
+INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] B:\VRPS\test\vrps1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:14:39-68
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:14:13-38
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
 		INJECTED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml
-uses-feature#0x00020000
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:15:3-52
-	android:glEsVersion
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:15:17-49
-uses-feature#android.hardware.touchscreen
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:16:3-88
-	android:required
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:16:61-85
-	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:16:17-60
-uses-feature#android.hardware.touchscreen.multitouch
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:17:3-99
-	android:required
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:17:72-96
-	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:17:17-71
-uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:18:3-108
-	android:required
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:18:81-105
-	android:name
-		ADDED from B:\VRPS\test\vrps1\app\src\main\AndroidManifest.xml:18:17-80

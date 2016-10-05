@@ -7,10 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
 import android.view.View;
 
-import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.example.app.message";
@@ -20,15 +18,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        if(!fileExists(FILE_NAME))
-            new File(this.getFilesDir(),FILE_NAME);
+       // if(!fileExists(FILE_NAME))
+         //   new File(this.getFilesDir(),FILE_NAME);
         getFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new SettingsFragment())
                 .commit();
-        //setContentView(R.layout.activity_main);
+      // setContentView(R.layout.activity_main);
     }
 
-    public void sendMessage(View view) {
+    public void startUnity() {
+        Intent intent = new Intent(this, UnityPlayerActivity.class);
+        startActivity(intent);
+    }
+
+
+ /*   public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
@@ -38,5 +42,5 @@ public class MainActivity extends AppCompatActivity {
     public boolean fileExists(String filename){
         File file = getBaseContext().getFileStreamPath(filename);
         return file.exists();
-    }
+    }*/
 }

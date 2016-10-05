@@ -1,9 +1,10 @@
 package com.Our430Company.TestProgram;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import Activity;
+
 
 /**
  * Created by John on 10/4/2016.

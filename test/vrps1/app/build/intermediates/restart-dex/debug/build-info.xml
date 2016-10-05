@@ -4,33 +4,47 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="1267997009999513"
+    timestamp="1275002238938552"
     token="-8928197473184352473"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="711" />
+        duration="236" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="145" />
+        duration="29" />
     <task
         name="verifier"
-        duration="14" />
+        duration="1" />
 
     <artifact
-        location="B:\VRPS\test\vrps1\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="B:\VRPS\test\vrps1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1267997009999513"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="1274748419899790"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="B:\VRPS\test\vrps1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1274895595942416"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="B:\VRPS\test\vrps1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="1275002238938552"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="B:\VRPS\test\vrps1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
