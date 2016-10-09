@@ -1,7 +1,7 @@
 <PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- opens a subscreen of settings -->
     <ListPreference
-        android:title="Launch Application .apk -- Not provided"/>
+        android:title="Improve Your Speech"/>
     <PreferenceScreen
         android:key="button_voicemail_category_key"
         android:title="@string/settings"
@@ -23,12 +23,7 @@
             android:key="button_voicemail_setting_key"
             android:title="@string/voicemail_settings"
             android:persistent="false">
-
         </PreferenceScreen>
-        <RingtonePreference
-            android:key="button_voicemail_ringtone_key"
-            android:title="@string/voicemail_ringtone_title"
-            android:ringtoneType="notification" />
 
     </PreferenceScreen>
 </PreferenceScreen>

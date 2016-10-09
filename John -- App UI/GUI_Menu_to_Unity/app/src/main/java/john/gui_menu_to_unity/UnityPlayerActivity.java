@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
-
 import com.unity3d.player.*;
 
 public class UnityPlayerActivity extends Activity
@@ -24,8 +23,7 @@ public class UnityPlayerActivity extends Activity
 
 		mUnityPlayer = new UnityPlayer(this);
 		setContentView(mUnityPlayer);
-		mUnityPlayer.requestFocus();
-	}
+		mUnityPlayer.requestFocus();	}
 
 	// Quit Unity
 	@Override protected void onDestroy ()

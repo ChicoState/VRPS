@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_entries">
+        <item>@string/list1</item>
+        <item>@string/list2</item>
+        <item>@string/list3</item>
+    </array>
+
+    <string-array name="list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

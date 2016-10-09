@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">VR projects Book</string>
+  <string name="edit_message">Setting Tester</string>
+  <string name="button_send">Start the Application</string>
+  <string name="settings">Settings</string>
+  <string name="list_title">Which Audience would you like to speak to</string>
+  <string name="list_summary"></string>
+  <string name="voicemail_settings">Import Notes or Powerpoint</string>
+  <string name="voicemail_ringtone_title">Hey Look Ringtones</string>
+  <string name="pref_sync_sum">Buttons Can have Descriptions</string>
+  <string name="pref_sync">Keep .mp3s of your speeches?</string>
+  <string name="pref_sync_summ"></string>
+  <string name="list3">Distracted</string>
+  <string name="list1">Engaged</string>
+  <string name="list2">Indifferent</string>
+
+</resources>

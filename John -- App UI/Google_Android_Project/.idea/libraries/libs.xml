@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Google Android Project/VR projects Book/libs/unity-classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Google Android Project/VR projects Book/libs/gvr_audio.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
