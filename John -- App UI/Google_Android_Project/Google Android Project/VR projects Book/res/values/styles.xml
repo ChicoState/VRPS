@@ -2,4 +2,7 @@
 <resources>
 <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
 </style>
+    <style name="AppTheme" parent="android:Theme.Black">
+        <!-- Customize your theme here. -->
+    </style>
 </resources>
