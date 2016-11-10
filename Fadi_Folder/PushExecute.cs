@@ -13,11 +13,11 @@ environment, then we will need to
 */
 
 
-public class ButtonExecute : MonoBehaviour
+public class PushExecute : MonoBehaviour
 {
     private GameObject currentButton; // private is local to this script, public is visiable by everyscript in unity.
     public Camera CameraFacing;
-    public float Timer = 2.0f;
+    public float Timer;
     private float count_down;
 
     void Update()
@@ -28,13 +28,13 @@ public class ButtonExecute : MonoBehaviour
         Ray ray = new Ray(CameraFacing.transform.position,
                   CameraFacing.transform.rotation * Vector3.forward);
 
-        PointerEventData data = new PointerEventData (EventSystem.current);
+        PointerEventData data = new PointerEventData(EventSystem.current);
 
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.transform.gameObject.tag == "Push_tag")
             {
-                PushButton = hit.transform.parent.gameObject; // if the tag is detected set pushbutton to parent object
+                PushButton = hit.transform.parent.gameObject; // if the tag is detected set pushbutton to parent object(CurrentButton)
             }
         }
 

@@ -13,11 +13,11 @@ environment, then we will need to
 */
 
 
-public class ButtonExecute : MonoBehaviour
+public class ItalyExecute : MonoBehaviour
 {
-    private GameObject currentButton; // private is local to this script, public is visiable by everyscript in unity.
+    private GameObject currentButton; // private is local to this script, public is visiable by every script in unity.
     public Camera CameraFacing;
-    public float Timer = 2.0f;
+    public float Timer;
     private float count_down;
 
     void Update()
@@ -32,9 +32,9 @@ public class ButtonExecute : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.transform.gameObject.tag == "Push_tag")
+            if (hit.transform.gameObject.tag == "Italy_Tag")
             {
-                PushButton = hit.transform.parent.gameObject; // if the tag is detected set pushbutton to parent object
+                PushButton = hit.transform.parent.gameObject; // if the tag is detected set pushbutton to parent object(CurrentButton)
             }
         }
 
