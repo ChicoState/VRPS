@@ -1,0 +1,14 @@
+prefix=/Users/DarkSide/Desktop/430ffmpegandroid/newGithubTut/android-ndk-r11c/sources/ffmpeg-0.9.4/android/mips
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 51.32.0
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

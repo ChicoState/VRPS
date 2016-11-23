@@ -1,0 +1,14 @@
+prefix=/Users/DarkSide/Desktop/430ffmpegandroid/newGithubTut/android-ndk-r11c/sources/ffmpeg-0.9.4/android/mips
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 53.42.4
+Requires: 
+Requires.private: libavutil = 51.32.0
+Conflicts:
+Libs: -L${libdir} -lavcodec 
+Libs.private: -lm -lz
+Cflags: -I${includedir}
