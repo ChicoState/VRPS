@@ -27,6 +27,7 @@ public class Reticle : MonoBehaviour {
 
     private bool stair_to_select;
     private float defaultPosZ;
+    float distance;
     private Vector3 Reticle_Scale;
 
     // Use this for initialization
@@ -51,11 +52,8 @@ public class Reticle : MonoBehaviour {
     
     // Update is called once per frame
     void Update () {
-
-        float distance;
         // we will identify the closest object the camera is looking at so that we may
         // draw the reticle correctly on the closest object. this will prevent the double image effect.
-
         RaycastHit hit;
         Ray ray = new Ray(CameraFacing.transform.position,
                             CameraFacing.transform.rotation * Vector3.forward);
@@ -81,7 +79,7 @@ public class Reticle : MonoBehaviour {
         }
         else {
 
-            transform.Rotate(0.0f, 0.0f, 8.0f);                 // if stop_looking = true, then stop making the reticle
+            transform.Rotate(0.0f, 0.0f, 12.0f);                 // if stop_looking = true, then stop making the reticle
                                                                 // look at the camera and allow it to rotate about the z-axis.
         }
 
