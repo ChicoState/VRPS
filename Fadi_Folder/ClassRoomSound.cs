@@ -14,7 +14,8 @@ using UnityEngine.UI; // for Button class
 
 //[RequireComponent(typeof(Button))] // this will make sure there is button attached, ift here isnt one then it will create one
 
-public class HighLightClickSound : MonoBehaviour {
+public class ClassRoomSound : MonoBehaviour
+{
 
     public AudioClip sound; // the audio clip
 
@@ -22,20 +23,18 @@ public class HighLightClickSound : MonoBehaviour {
     private AudioSource source { get { return GetComponent<AudioSource>(); } } // returns the audio source on the game object
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         gameObject.AddComponent<AudioSource>(); // add an Audio source to the Gameobejct
         source.clip = sound;
         source.playOnAwake = false; // make sure it doesnt play on awake
     }
 
-    public void PlaySound()
+    void Update()
     {
-        source.PlayOneShot(sound); // plays the audio clip only once when called.
-    }
-
-    public void DontPlaySound()
-    {
-        source.Stop();
+        //play audio
+        if (!source.isPlaying)
+            source.Play();
     }
 }
 
